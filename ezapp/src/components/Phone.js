@@ -7,11 +7,13 @@ export default class Phone extends Component {
         num: PropTypes.number
     }
 
+    // pass value(same value)
     constructor(props){
         super(props);
         Pubsub.subscribe("evt",(msg,data)=>{console.log(data)});
     }
 
+    // Route pass parameters
     componentDidMount(){
         console.log(this.props.match.params.id);
     }
@@ -19,7 +21,7 @@ export default class Phone extends Component {
     render() {
         return (
             <div>
-                
+                 -------------Phone page-------------
             </div>
         )
     }

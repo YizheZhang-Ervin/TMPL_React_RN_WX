@@ -15,7 +15,7 @@ React
 ### Same level Pass value
     npm i pubsub-js
 ### Data Request
-    npm i json-server -g(start by: cd mock> json-server data.json --port 4000)
+    npm i json-server -g (start by: cd mock> json-server data.json --port 4000)
     npm i axios
 ### Router 
     npm i react-router-dom
@@ -32,4 +32,4 @@ React
     
 5. step to run
     npm install
-    npm start
+    cd ezapp> npm start

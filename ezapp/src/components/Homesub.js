@@ -4,7 +4,7 @@ export default class Homesub extends Component {
     render() {
         return (
             <div>
-                homesub
+                -------------Homesub page-------------
             </div>
         )
     }
