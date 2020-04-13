@@ -11,11 +11,11 @@ lines include in <Fragment></Fragment>
 - method 1-1  
 eg. home.js  
 import ImgA from "xxpath/xx.jpg"  
-<img src={ImgA}>  
+src={ImgA}
 
 - method 1-2  
 eg. home.js  
-<img src={require("xxpath/xx.jpg")}/>
+src={require("xxpath/xx.jpg")}
 
 3. props & state  
 same with single file version
