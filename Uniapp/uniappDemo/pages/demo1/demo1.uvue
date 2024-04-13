@@ -1,0 +1,29 @@
+<template>
+	<scroll-view scroll-y="true" class="scroll">
+		<view>1231111111</view>
+		<view>1231111111</view>
+		<view>1231111111</view>
+		<view>1231111111</view>
+		<view>1231111111</view>
+		<view>1231111111</view>
+		<view>1231111111</view>
+	</scroll-view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			};
+		}
+	}
+</script>
+
+<style lang="scss">
+.scroll{
+	width:100px;
+	height:100px;
+	border:1px;
+}
+</style>

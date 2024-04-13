@@ -1,0 +1,81 @@
+# uni-app
+- 路由pages.json
+	- localhost:5173/#/pages/demo1/demo1
+
+- 组件(https://zh.uniapp.dcloud.io/component/)
+	- view分割块
+	- text文本
+	- scroll-view滚动条
+	- swiper & swiper-item跑马灯
+	- image图片
+	- navigator跳转
+	- button按钮
+	- input输入框
+
+- vue
+	- 插值{{}}
+	- ref响应式数据变量
+	- v-bind
+	- class和style绑定
+	- v-on/@事件
+	- 自定义模板
+	- v-if/v-else/v-else-if和v-show
+	- v-for及key
+	- 表单双向绑定v-model及focus/blur
+	- computed计算属性(有缓存，一个页面只计算一次，有变更才会再计算)
+	- watch(可在数据变化时异步操作) 和 watchEffect(自动监听所有ref的数据变更)
+	- components组件(创建在components中就不需要额外引入)
+	- prop(defineProps,修改用computed)及校验
+	- slot及template
+	- emit(defineEmits,子向父传值)
+	- defineExpose(暴露子组件属性方法,用ref调用)
+	- onMounted 和 onUnmounted
+	- onLoad(接收?号传参，晚于setup) 和 onReady(在onLoad之后)
+	- onShow(在load和ready之间) 和 onHide
+	- onUnload 和 onPageScroll
+	- 尺寸单位rpx/px
+	- @import
+
+- 配置
+	- pages.json(globalStyle全局样式,tabBar,图标iconfont.cn)
+	- manifest.json
+	- vite.config.js/vue.config.js (不用每个页面引入依赖的插件npm i unplugin-auto-import)
+
+- API
+	- uni.showToast消息提示框
+	- uni.showLoading加载中
+	- uni.showModal模态框
+	- uni.showActionSheet底部向上弹出菜单
+	- uni.setNavigationBarTitle设置导航栏名称
+	- 设置菜单栏
+		- uni.setTabBarItem / uni.setTabBarStyle
+		- uni.hideTabBar / uni.showTabBar
+		- uni.setTabBarBadge / uni.removeTabBarBadge
+		- uni.showTabBarRedDot / uni.hideTabBarRedDot
+		- uni.onTabBarMidButtonTap
+	- 下拉刷新
+		- uni.onPullDownRefresh / uni.onStopPullDownRefresh
+	- 导航uni.navigateTo
+	- 获取页面栈 uni.getCurrentPages
+	- 本地缓存uni.setStorage / uni.setStorageSync
+	- 网络请求uni.request
+	- 预览图片uni.previewImage
+	- 下拉刷新/触底加载onReachBottom/onPullDownRefresh
+	- 返回顶部uni.pageScrollTo
+	- uni-ui插件(uView) 及 uni-icons
+		- uni-pop
+		- uni-rate
+	- ifdef条件编译多端匹配
+	- deep修改子组件样式,定义通用样式mixin和include
+	- width可选fit-content
+	- 系统信息uni.getSystemInfoSync
+	- 导航栏大小uni.getMenuButtonBoundingClientRect
+	- chatGPT工具monica
+	- 骨架屏uv-skeletons & 触底加载uni-load-more
+	- 图片保存到本地uni.saveImageToPhotosAlbum
+	- 设置界面uni.openSetting
+	- 分享onShareAppMessage
+	- 富文本mp-html
+	- 搜索uni-search-bar 及 空图uv-empty
+	- downloadFile/uploadFile合法域名
+	- 安卓模拟器要勾选x86
